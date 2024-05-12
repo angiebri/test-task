@@ -26,3 +26,53 @@
     width: 500px;
     margin-top: 50px;
 }
+
+.Task {
+    border: 1px solid #e6e9ec;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkboxWrapper18 {
+    align-self: center;
+}
+.checkboxWrapper18 .round {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .checkboxWrapper18 .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+  }
+
+  .checkboxWrapper18 .round input[type="checkbox"] {
+    display: none;
+  }
+
+  .checkboxWrapper18 .round input[type="checkbox"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button .remove {
+    fill: red;
+}
+
+.NameTask {
+    flex-grow: 2;
+    align-self: center;
+}
